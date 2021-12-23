@@ -60,7 +60,7 @@ verificacion.use((req, res, next) => {
         jwt.verify(token, app.get("key"), (error, decoded) => {
             if(error){
                 return res.json({
-                    message: "El token no es valido"
+                    message: "El token ingresado no es valido"
                 });
             }else{
                 req.decoded = decoded; 

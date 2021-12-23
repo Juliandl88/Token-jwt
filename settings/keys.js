@@ -1,6 +1,6 @@
 module.exports = {
 
-    key: "clavesecreta2021"
+    key: "clavesecreta2022"
 
 
 
